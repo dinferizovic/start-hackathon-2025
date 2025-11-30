@@ -1,0 +1,24 @@
+{
+  "intake": {
+    "initial_request": "We need 2 commercial espresso machines and 1 grinder for the Munich HQ cafe within six weeks.",
+    "items": [
+      { "name": "La Marzocco KB90", "quantity": 2, "notes": "Automatic steam wand preferred" },
+      { "name": "Mahlkönig E80 Supreme", "quantity": 1, "notes": "Black color" }
+    ],
+    "budget": 12000,
+    "delivery_deadline": "2024-12-01",
+    "location": "Munich, Germany",
+    "weights": {
+      "price": 0.35,
+      "quality": 0.25,
+      "delivery": 0.2,
+      "prestige": 0.1,
+      "sustainability": 0.1
+    },
+    "constraints": [
+      "Minimum 24-month warranty",
+      "Require installation and barista training"
+    ]
+  },
+  "vendor_limit": 6
+}
